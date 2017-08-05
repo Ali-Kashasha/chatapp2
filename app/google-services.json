@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "474364602301",
+    "firebase_url": "https://chatapp-21cbe.firebaseio.com",
+    "project_id": "chatapp-21cbe",
+    "storage_bucket": "chatapp-21cbe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:474364602301:android:3020a60993eccf8d",
+        "android_client_info": {
+          "package_name": "com.example.alikshasha.chatapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "474364602301-p63ktfklor00kn7b4karvf6a8hdhnvp4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAryt2OHxPxlTEC2DAwU1PnJnjJ5HOPkK0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

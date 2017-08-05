@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:gravity="right">
+
+    <ImageView
+        android:layout_marginBottom="10dp"
+        android:id="@+id/status"
+        android:contentDescription="@string/message_statues"
+        android:layout_gravity="bottom"
+        android:layout_width="20dp"
+        android:layout_height="20dp" />
+
+    <TextView
+        android:textSize="18dp"
+        android:gravity="right"
+        android:textColor="#FFF"
+        android:background="@drawable/message_send"
+        android:id="@+id/message_body"
+        android:padding="10dp"
+        android:layout_margin="3dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_friend_details"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.alikshasha.chatapplication.friend_details">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".5">
+
+        <ImageView
+            android:background="@drawable/public_profile"
+            android:id="@+id/profile"
+            android:scaleType="fitXY"
+            android:contentDescription="@string/friend_profile_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:layout_margin="20dp"
+            android:onClick="finish_activity"
+            android:elevation="@dimen/back_arrow_elevation"
+            android:src="@drawable/back"
+            android:contentDescription="@string/back_arrow"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/name"
+        android:padding="20dp"
+        android:textColor="#000"
+        android:textSize="16dp"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".1" />
+
+    <TextView
+        android:id="@+id/phone"
+        android:padding="20dp"
+        android:textColor="#000"
+        android:textSize="16dp"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".1" />
+
+    <TextView
+        android:id="@+id/bithdayt"
+        android:padding="20dp"
+        android:textColor="#000"
+        android:textSize="16dp"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".1" />
+</LinearLayout>
